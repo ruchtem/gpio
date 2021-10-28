@@ -41,7 +41,7 @@ int main() {
                 	gpiod_chip_close(chip);
 			return 1;
 		}
-		printf("Output set [pin=%u, value=%u]\n", val, pin);
+		printf("Output set [pin=%u, value=%u]\n", pin, val);
 		sleep(1);
 		val = !val;
 	}
