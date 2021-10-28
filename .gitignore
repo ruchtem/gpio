@@ -1,5 +1,8 @@
 # executables
 led/led
+button/button
+buzzer/buzzer
+running_lights/run
 
 
 # Prerequisites
